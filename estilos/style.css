@@ -12,19 +12,31 @@
     font-family: sans-serif;
 }
 
-body {
-  
+html , body {
+    
 }
 
 main {
+   
+}
+section {
     
+}
+
+
+form {
+   
 }
 
 #imagem {
-    
+
 }
 
 #formulario {
+    border: 1px solid black;
+    
+    
+    
     position: absolute;
 
     top: 50%;
@@ -35,30 +47,34 @@ main {
 
 main > section > div > p {
     font-size: 0.8em;
+    
 }
 main > section > div > h1 {
     text-align: center;
+  
 }
 
 label {
+
     background-color: #5f2c82;
     color: white;
     border:10px solid #5f2c82;
-    border-right: 0px;
+    
     
     border-radius: 10px;
 }
 
 input.EeS {
-    border-top: 4px solid #5f2c82;
-    
+    border-bottom: 1px solid #5f2c82;
+    background-color: #94cfcd;
     margin: 5px;
 }
 
 input {
-    background-color: #49a09d;
-    width: 400px;
-    height: 30px;
-    margin: 20px;
-    border-radius: 10px;
+    background-color: #49a09df7;
+    width: 60vw;
+    height:30px;
+    margin: 5px;
+    border-radius: 6px;
+    border: none;
 }
