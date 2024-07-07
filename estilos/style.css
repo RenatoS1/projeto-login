@@ -36,6 +36,9 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden; /*Para arredondar os cantos superiores porque com a foto , os border radius não funcionam em cima*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.395);
+
+    transition: width .3s , heigth .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem {
     display: block;
